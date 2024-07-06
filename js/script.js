@@ -156,3 +156,50 @@ sr.reveal(`.home__name, .home__info,
            .about__container .section__title-1,
            .about__info, .contact__social, .contact__data`, {origin: 'left'})
 sr.reveal(`.services__card, .projects__card`, {interval: 100})
+
+// Get the modal elements
+const modal = document.getElementById('project-modal');
+const modalImage = document.getElementById('modal-image');
+const modalSubtitle = document.getElementById('modal-subtitle');
+const modalTitle = document.getElementById('modal-title');
+const modalDescription = document.getElementById('modal-description');
+const closeModalButton = document.getElementsByClassName('close')[0];
+
+// Get all project cards
+const projectCards = document.querySelectorAll('.projects__card');
+
+// Open modal function
+const openModal = (imageSrc, subtitle, title, description) => {
+  modalImage.src = imageSrc;
+  modalSubtitle.textContent = subtitle;
+  modalTitle.textContent = title;
+  modalDescription.textContent = description;
+  modal.style.display = 'block';
+};
+
+// Add event listeners to project cards
+projectCards.forEach(card => {
+  card.addEventListener('click', () => {
+    const imageSrc = card.querySelector('.projects__img').src;
+    const subtitle = card.querySelector('.projects__subtitle').textContent;
+    const title = card.querySelector('.projects__title').textContent;
+    const description = card.querySelector('.projects__description').textContent;
+
+    openModal(imageSrc, subtitle, title, description);
+  });
+});
+
+// Close modal function
+const closeModal = () => {
+  modal.style.display = 'none';
+};
+
+// Add event listener to close button
+closeModalButton.addEventListener('click', closeModal);
+
+// Close the modal when clicking outside of it
+window.addEventListener('click', (event) => {
+  if (event.target == modal) {
+    closeModal();
+  }
+});
