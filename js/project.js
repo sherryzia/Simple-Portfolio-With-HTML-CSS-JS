@@ -15,23 +15,23 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/ist.jpg",
-      "image/ist.jpg", // Replace with additional screenshots
-      "image/ist.jpg"  // Replace with additional screenshots
+      // "image/ist.jpg", // Replace with additional screenshots
+      // "image/ist.jpg"  // Replace with additional screenshots
     ]
   },
 {
   title: "Quran Companion",
   subtitle: "Android App",
-  imageSrc: "image/feature_graphics/QuranCompanion.png",
+  imageSrc: "image/feature_graphics/QuranApp.png",
   description: "Quran Companion is a beautifully designed Islamic app that provides a seamless Quran reading experience along with powerful features such as prayer times, Qibla direction, duas, and personalized bookmarks.",
   detailedDescription: "Quran Companion is a comprehensive Islamic application designed to enhance your Quranic journey. It offers a user-friendly interface for reading the Quran, along with features like audio recitation, translation, and tafsir. The app also includes daily prayer times, Qibla direction, a collection of essential duas, and a bookmark system for saving favorite verses. With a focus on simplicity and accessibility, Quran Companion is the perfect tool for anyone looking to stay connected with the Quran in their daily life.",
   githubLink: "",
   liveLink: "",
   images: [
-    "image/feature_graphics/QuranCompanion.png",
-    "image/feature_graphics/QuranCompanion.png",
-    "image/feature_graphics/QuranCompanion.png",
-    "image/feature_graphics/QuranCompanion.png",
+    "image/feature_graphics/QuranApp.png",
+    // "image/feature_graphics/QuranApp.png",
+    // "image/feature_graphics/QuranApp.png",
+    // "image/feature_graphics/QuranApp.png",
   ]
 },
 
@@ -45,9 +45,9 @@ const projectsData = [
   liveLink: "",
   images: [
     "image/feature_graphics/GratoApp.png",
-    "image/feature_graphics/GratoApp.png",
-    "image/feature_graphics/GratoApp.png",
-    "image/feature_graphics/GratoApp.png",
+    // "image/feature_graphics/GratoApp.png",
+    // "image/feature_graphics/GratoApp.png",
+    // "image/feature_graphics/GratoApp.png",
   ]
 },
   
@@ -61,9 +61,9 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/feature_graphics/SwimStrive.png",
-      "image/feature_graphics/SwimStrive.png",
-      "image/feature_graphics/SwimStrive.png",
-      "image/feature_graphics/SwimStrive.png"
+      // "image/feature_graphics/SwimStrive.png",
+      // "image/feature_graphics/SwimStrive.png",
+      // "image/feature_graphics/SwimStrive.png"
     ]
 },
 
@@ -77,8 +77,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/fir.png",
-      "image/fir.png", // Replace with additional screenshots
-      "image/fir.png"  // Replace with additional screenshots
+      // "image/fir.png", // Replace with additional screenshots
+      // "image/fir.png"  // Replace with additional screenshots
     ]
   },
   {
@@ -91,8 +91,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/affirmation.jpg",
-      "image/affirmation.jpg", // Replace with additional screenshots
-      "image/affirmation.jpg"  // Replace with additional screenshots
+      // "image/affirmation.jpg", // Replace with additional screenshots
+      // "image/affirmation.jpg"  // Replace with additional screenshots
     ]
   },
   {
@@ -105,8 +105,8 @@ const projectsData = [
     liveLink: "https://sherrymusicacademy-next.vercel.app/",
     images: [
       "image/Music Website.png",
-      "image/Music Website.png", // Replace with additional screenshots
-      "image/Music Website.png"  // Replace with additional screenshots
+      // "image/Music Website.png", // Replace with additional screenshots
+      // "image/Music Website.png"  // Replace with additional screenshots
     ]
   },
   {
@@ -119,8 +119,8 @@ const projectsData = [
     liveLink: "https://sherryzia.github.io/rps.github.io/",
     images: [
       "image/rps.png",
-      "image/rps.png", // Replace with additional screenshots
-      "image/rps.png"  // Replace with additional screenshots
+      // "image/rps.png", // Replace with additional screenshots
+      // "image/rps.png"  // Replace with additional screenshots
     ]
   },
   {
@@ -133,8 +133,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/landing.png",
-      "image/landing.png", // Replace with additional screenshots
-      "image/landing.png"  // Replace with additional screenshots
+      // "image/landing.png", // Replace with additional screenshots
+      // "image/landing.png"  // Replace with additional screenshots
     ]
   },
   {
@@ -147,8 +147,8 @@ const projectsData = [
     liveLink: "https://shaheerziaportfolio.vercel.app/",
     images: [
       "image/portfolio.png",
-      "image/portfolio.png", // Replace with additional screenshots
-      "image/portfolio.png"  // Replace with additional screenshots
+      // "image/portfolio.png", // Replace with additional screenshots
+      // "image/portfolio.png"  // Replace with additional screenshots
     ]
   },
   {
@@ -161,8 +161,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/ios2.jpg",
-      "image/ios2.jpg", // Replace with additional screenshots
-      "image/ios2.jpg"  // Replace with additional screenshots
+      // "image/ios2.jpg", // Replace with additional screenshots
+      // "image/ios2.jpg"  // Replace with additional screenshots
     ]
   },
   {
@@ -175,8 +175,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/ios3.jpg",
-      "image/ios3.jpg", // Replace with additional screenshots
-      "image/ios3.jpg"  // Replace with additional screenshots
+      // "image/ios3.jpg", // Replace with additional screenshots
+      // "image/ios3.jpg"  // Replace with additional screenshots
     ]
   },
   {
@@ -189,8 +189,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/ios4.jpg",
-      "image/ios4.jpg", // Replace with additional screenshots
-      "image/ios4.jpg"  // Replace with additional screenshots
+      // "image/ios4.jpg", // Replace with additional screenshots
+      // "image/ios4.jpg"  // Replace with additional screenshots
     ]
   },
   {
@@ -203,8 +203,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/ios5.jpg",
-      "image/ios5.jpg", // Replace with additional screenshots
-      "image/ios5.jpg"  // Replace with additional screenshots
+      // "image/ios5.jpg", // Replace with additional screenshots
+      // "image/ios5.jpg"  // Replace with additional screenshots
     ]
   },
   {
@@ -217,8 +217,8 @@ const projectsData = [
     liveLink: "",
     images: [
       "image/WelshHeritage.jpg",
-      "image/WelshHeritage.jpg", // Replace with additional screenshots
-      "image/WelshHeritage.jpg"  // Replace with additional screenshots
+      // "image/WelshHeritage.jpg", // Replace with additional screenshots
+      // "image/WelshHeritage.jpg"  // Replace with additional screenshots
     ]
   }
 ];
