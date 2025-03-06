@@ -19,6 +19,54 @@ const projectsData = [
       "image/ist.jpg"  // Replace with additional screenshots
     ]
   },
+{
+  title: "Quran Companion",
+  subtitle: "Android App",
+  imageSrc: "image/feature_graphics/QuranCompanion.png",
+  description: "Quran Companion is a beautifully designed Islamic app that provides a seamless Quran reading experience along with powerful features such as prayer times, Qibla direction, duas, and personalized bookmarks.",
+  detailedDescription: "Quran Companion is a comprehensive Islamic application designed to enhance your Quranic journey. It offers a user-friendly interface for reading the Quran, along with features like audio recitation, translation, and tafsir. The app also includes daily prayer times, Qibla direction, a collection of essential duas, and a bookmark system for saving favorite verses. With a focus on simplicity and accessibility, Quran Companion is the perfect tool for anyone looking to stay connected with the Quran in their daily life.",
+  githubLink: "",
+  liveLink: "",
+  images: [
+    "image/feature_graphics/QuranCompanion.png",
+    "image/feature_graphics/QuranCompanion.png",
+    "image/feature_graphics/QuranCompanion.png",
+    "image/feature_graphics/QuranCompanion.png",
+  ]
+},
+
+{
+  title: "Grato App",
+  subtitle: "Android/iOS App",
+  imageSrc: "image/feature_graphics/GratoApp.png",
+  description: "Grato is a modern recognition and appreciation platform designed to foster workplace culture by enabling employees to give and receive recognition seamlessly.",
+  detailedDescription: "Grato is a comprehensive employee recognition app that empowers organizations to cultivate a positive work environment. It allows employees to appreciate peers, track recognitions, and redeem rewards. Featuring a structured points system, real-time notifications, and analytics, Grato enhances engagement and motivation within teams. The platform integrates with existing HR and communication tools, ensuring a seamless experience. With its intuitive design and social elements, Grato strengthens workplace connections and reinforces company values through meaningful recognition.",
+  githubLink: "",
+  liveLink: "",
+  images: [
+    "image/feature_graphics/GratoApp.png",
+    "image/feature_graphics/GratoApp.png",
+    "image/feature_graphics/GratoApp.png",
+    "image/feature_graphics/GratoApp.png",
+  ]
+},
+  
+  {
+    title: "SwimStrive App",
+    subtitle: "Android/iOS App",
+    imageSrc: "image/feature_graphics/SwimStrive.png",
+    description: "SwimStrive is a revolutionary swimming training and coaching app designed to enhance athlete performance through AI-driven analytics, real-time feedback, and personalized training plans.",
+    detailedDescription: "SwimStrive is a state-of-the-art mobile application built for swimmers and coaches to track progress, analyze swim techniques, and optimize performance. The app features real-time stroke analysis, personalized workout plans, video feedback, and AI-powered performance insights. It enables athletes to refine their techniques, improve endurance, and set structured training goals. With cloud-based data storage and community-driven challenges, SwimStrive fosters a competitive yet collaborative environment to push athletes to their best potential.",
+    githubLink: "",
+    liveLink: "",
+    images: [
+      "image/feature_graphics/SwimStrive.png",
+      "image/feature_graphics/SwimStrive.png",
+      "image/feature_graphics/SwimStrive.png",
+      "image/feature_graphics/SwimStrive.png"
+    ]
+},
+
   {
     title: "FIR Management System",
     subtitle: "Website",
