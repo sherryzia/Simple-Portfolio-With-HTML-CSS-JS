@@ -96,6 +96,22 @@ const projectsData = [
     // "image/WelshHeritage.jpg"  // Replace with additional screenshots
   ]
 },
+
+{
+  title: "4Us App",
+  subtitle: "Community & Networking Platform",
+  imageSrc: "image/feature_graphics/4UsApp.png",
+  description: "A dynamic app designed to connect people with shared interests, events, and opportunities within a vibrant community.",
+  detailedDescription: "The 4Us App is an innovative platform designed to foster community engagement, networking, and event participation. It enables users to discover and join interest-based communities, attend exclusive events, and interact with like-minded individuals. The app offers a seamless user experience with intuitive navigation, real-time notifications, and personalized recommendations. Whether for professional networking, social gatherings, or collaborative projects, 4Us enhances user interaction in a meaningful way.",
+  githubLink: "",
+  liveLink: "",
+  images: [
+    "image/feature_graphics/4UsApp.png",
+    // "image/4UsApp_Screenshot1.jpg", // Replace with additional screenshots
+    // "image/4UsApp_Screenshot2.jpg"  // Replace with additional screenshots
+  ]
+},
+
 {
   title: "Portfolio Website",
   subtitle: "Personal Website",
