@@ -67,7 +67,55 @@ const projectsData = [
     ]
 },
 
-  {
+{
+  title: "Affirmation App",
+  subtitle: "Flutter App",
+  imageSrc: "image/feature_graphics/OcularVision.png",
+  description: "A motivational tool that delivers personalized daily affirmations to uplift and inspire users, featuring reminders, favorite affirmations, and an AI chatbot.",
+  detailedDescription: "The Affirmation App provides users with daily motivational affirmations, allowing them to save favorites, set reminders, and interact with an AI-powered chatbot for encouragement.",
+  githubLink: "",
+  liveLink: "",
+  images: [
+    "image/feature_graphics/OcularVision.png",
+    "image/affirmation.jpg", // Replace with additional screenshots
+    // "image/affirmation.jpg"  // Replace with additional screenshots
+  ]
+},
+
+{
+  title: "Welsh Heritage App",
+  subtitle: "Android Application",
+  imageSrc: "image/feature_graphics/Welsh.png",
+  description: "An immersive Android app showcasing the rich history and culture of Wales, with interactive museum and heritage site details.",
+  detailedDescription: "The Welsh Heritage App is an immersive Android application that celebrates the rich history and culture of Wales. Explore iconic museums and heritage sites with detailed descriptions, 360-degree virtual tours, and bilingual support. The app enhances user engagement with search functionality, dynamic content, and seamless navigation.",
+  githubLink: "",
+  liveLink: "",
+  images: [
+    "image/feature_graphics/Welsh.png",
+    "image/WelshHeritage.jpg", // Replace with additional screenshots
+    // "image/WelshHeritage.jpg"  // Replace with additional screenshots
+  ]
+},
+{
+  title: "Portfolio Website",
+  subtitle: "Personal Website",
+  imageSrc: "image/portfolio.png",
+  description: "My professional portfolio showcasing my skills, experience, and projects, built with HTML, CSS, and JavaScript.",
+  detailedDescription: "A modern portfolio website featuring sections like About, Skills, Projects, and Contact, designed to showcase my work and expertise in software development.",
+  githubLink: "https://github.com/sherryzia/portfolio",
+  liveLink: "https://shaheerziaportfolio.vercel.app/",
+  images: [
+    "image/portfolio.png",
+    "image/portfolio1.png",
+    "image/portfolio2.png",
+    "image/portfolio3.png",
+    "image/portfolio4.png",
+    "image/portfolio5.png",
+    // "image/portfolio.png", // Replace with additional screenshots
+    // "image/portfolio.png"  // Replace with additional screenshots
+  ]
+}, 
+{
     title: "FIR Management System",
     subtitle: "Website",
     imageSrc: "image/fir.png",
@@ -82,75 +130,51 @@ const projectsData = [
     ]
   },
   {
-    title: "Affirmation App",
-    subtitle: "Flutter App",
-    imageSrc: "image/feature_graphics/OcularVision.png",
-    description: "A motivational tool that delivers personalized daily affirmations to uplift and inspire users, featuring reminders, favorite affirmations, and an AI chatbot.",
-    detailedDescription: "The Affirmation App provides users with daily motivational affirmations, allowing them to save favorites, set reminders, and interact with an AI-powered chatbot for encouragement.",
-    githubLink: "",
-    liveLink: "",
-    images: [
-      "image/feature_graphics/OcularVision.png",
-      "image/affirmation.jpg", // Replace with additional screenshots
-      // "image/affirmation.jpg"  // Replace with additional screenshots
-    ]
-  },
-  {
     title: "Music Academy Website",
     subtitle: "Next JS",
-    imageSrc: "image/Music Website.png",
+    imageSrc: "image/MyMusic4.png",
     description: "A platform offering various music courses for aspiring musicians, built with Next.js for a seamless and engaging user experience.",
     detailedDescription: "The Music Academy Website is a Next.js-based platform featuring a clean UI, dynamic navigation, and music courses like Guitar Fundamentals, Vocal Techniques, and Music Production.",
     githubLink: "https://github.com/sherryzia/MusicAcademyWebsiteUsingNextJs",
     liveLink: "https://sherrymusicacademy-next.vercel.app/",
     images: [
-      "image/Music Website.png",
-      // "image/Music Website.png", // Replace with additional screenshots
-      // "image/Music Website.png"  // Replace with additional screenshots
+      "image/MyMusic4.png",
+      "image/MyMusic2.png",
+      "image/MyMusic3.png",
+      "image/MyMusic1.png",
+      
     ]
   },
   {
     title: "Rock Paper Scissors Game",
     subtitle: "Website",
-    imageSrc: "image/rps.png",
+    imageSrc: "image/rps1.png",
     description: "A fun online version of Rock Paper Scissors where users can challenge the computer with engaging animations and sound effects.",
     detailedDescription: "This web-based game allows users to play Rock Paper Scissors against a computer, featuring an intuitive UI, responsive design, and real-time score tracking.",
     githubLink: "https://github.com/sherryzia/rps.github.io",
     liveLink: "https://sherryzia.github.io/rps.github.io/",
     images: [
-      "image/rps.png",
+      "image/rps1.png",
+      "image/rps2.png",
       // "image/rps.png", // Replace with additional screenshots
       // "image/rps.png"  // Replace with additional screenshots
     ]
   },
-  {
-    title: "Customizable Landing Page Project",
-    subtitle: "Website",
-    imageSrc: "image/landing.png",
-    description: "A modern, user-friendly university website built with HTML5, CSS3, and JavaScript, incorporating responsive design principles.",
-    detailedDescription: "A multi-page responsive university website built with HTML, CSS, and JavaScript. It features an interactive layout and optimal display across devices.",
-    githubLink: "https://github.com/sherryzia/Landing-Page",
-    liveLink: "",
-    images: [
-      "image/landing.png",
-      // "image/landing.png", // Replace with additional screenshots
-      // "image/landing.png"  // Replace with additional screenshots
-    ]
-  },
-  {
-    title: "Portfolio Website",
-    subtitle: "Personal Website",
-    imageSrc: "image/portfolio.png",
-    description: "My professional portfolio showcasing my skills, experience, and projects, built with HTML, CSS, and JavaScript.",
-    detailedDescription: "A modern portfolio website featuring sections like About, Skills, Projects, and Contact, designed to showcase my work and expertise in software development.",
-    githubLink: "https://github.com/sherryzia/portfolio",
-    liveLink: "https://shaheerziaportfolio.vercel.app/",
-    images: [
-      "image/portfolio.png",
-      // "image/portfolio.png", // Replace with additional screenshots
-      // "image/portfolio.png"  // Replace with additional screenshots
-    ]
-  },
+  // {
+  //   title: "Customizable Landing Page Project",
+  //   subtitle: "Website",
+  //   imageSrc: "image/landing.png",
+  //   description: "A modern, user-friendly university website built with HTML5, CSS3, and JavaScript, incorporating responsive design principles.",
+  //   detailedDescription: "A multi-page responsive university website built with HTML, CSS, and JavaScript. It features an interactive layout and optimal display across devices.",
+  //   githubLink: "https://github.com/sherryzia/Landing-Page",
+  //   liveLink: "",
+  //   images: [
+  //     "image/landing.png",
+  //     // "image/landing.png", // Replace with additional screenshots
+  //     // "image/landing.png"  // Replace with additional screenshots
+  //   ]
+  // },
+  
   {
     title: "War Card Game App",
     subtitle: "iOS Application",
@@ -207,20 +231,7 @@ const projectsData = [
       // "image/ios5.jpg"  // Replace with additional screenshots
     ]
   },
-  {
-    title: "Welsh Heritage App",
-    subtitle: "Android Application",
-    imageSrc: "image/WelshHeritage.jpg",
-    description: "An immersive Android app showcasing the rich history and culture of Wales, with interactive museum and heritage site details.",
-    detailedDescription: "The Welsh Heritage App is an immersive Android application that celebrates the rich history and culture of Wales. Explore iconic museums and heritage sites with detailed descriptions, 360-degree virtual tours, and bilingual support. The app enhances user engagement with search functionality, dynamic content, and seamless navigation.",
-    githubLink: "",
-    liveLink: "",
-    images: [
-      "image/WelshHeritage.jpg",
-      // "image/WelshHeritage.jpg", // Replace with additional screenshots
-      // "image/WelshHeritage.jpg"  // Replace with additional screenshots
-    ]
-  }
+ 
 ];
 
 // Make the projectsData array available globally
