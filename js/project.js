@@ -14,7 +14,7 @@ const projectsData = [
     githubLink: "",
     liveLink: "",
     images: [
-      "image/feature_graphics/ist.jpg",
+      "image/feature_graphics/ist.png",
       "image/ist.jpg", // Replace with additional screenshots
       // "image/ist.jpg"  // Replace with additional screenshots
     ]
