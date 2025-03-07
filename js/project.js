@@ -8,14 +8,14 @@ const projectsData = [
   {
     title: "Interactive Speech Therapist",
     subtitle: "Android App",
-    imageSrc: "image/ist.jpg",
+    imageSrc: "image/feature_graphics/ist.jpg",
     description: "IST is a cutting-edge app for speech therapy, leveraging speech recognition to identify stuttering and offering tailored exercises like breathing techniques and yoga.",
     detailedDescription: "Interactive Speech Therapist (IST) is an Android app designed to assist individuals with speech therapy using speech recognition technology. It includes AI chatbot support, a community forum, and resources such as articles and videos. Users can find nearby therapists and provide feedback via Firebase for secure access.",
     githubLink: "",
     liveLink: "",
     images: [
-      "image/ist.jpg",
-      // "image/ist.jpg", // Replace with additional screenshots
+      "image/feature_graphics/ist.jpg",
+      "image/ist.jpg", // Replace with additional screenshots
       // "image/ist.jpg"  // Replace with additional screenshots
     ]
   },
