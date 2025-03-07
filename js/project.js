@@ -84,14 +84,14 @@ const projectsData = [
   {
     title: "Affirmation App",
     subtitle: "Flutter App",
-    imageSrc: "image/affirmation.jpg",
+    imageSrc: "image/OcularVision.png",
     description: "A motivational tool that delivers personalized daily affirmations to uplift and inspire users, featuring reminders, favorite affirmations, and an AI chatbot.",
     detailedDescription: "The Affirmation App provides users with daily motivational affirmations, allowing them to save favorites, set reminders, and interact with an AI-powered chatbot for encouragement.",
     githubLink: "",
     liveLink: "",
     images: [
-      "image/affirmation.jpg",
-      // "image/affirmation.jpg", // Replace with additional screenshots
+      "image/OcularVision.png",
+      "image/affirmation.jpg", // Replace with additional screenshots
       // "image/affirmation.jpg"  // Replace with additional screenshots
     ]
   },
