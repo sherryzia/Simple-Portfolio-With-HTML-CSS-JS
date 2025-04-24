@@ -111,6 +111,24 @@ const projectsData = [
     // "image/4UsApp_Screenshot2.jpg"  // Replace with additional screenshots
   ]
 },
+{
+  title: "Tutelagic Learners School Website",
+  subtitle: "Educational Institution Website",
+  imageSrc: "image/tlc1.png",
+  description: "A dynamic and informative school website for Tutelagic Learners School, highlighting academics, leadership, events, and resources for students and parents.",
+  detailedDescription: "Designed and developed a fully responsive website for Tutelagic Learners School to showcase its academic excellence, extracurricular activities, leadership team, and resources. The site features a modern design with dedicated sections for News & Events, Faculty, Gallery, and a contact form. Built using HTML, CSS, and JavaScript, the website emphasizes accessibility, responsiveness, and clarity to ensure a smooth experience for both students and parents.",
+  githubLink: "", // Replace with actual repo link
+  liveLink: "https://tutelagic.vercel.app/",           // Replace with actual live link
+  images: [
+    "image/tlc1.png",
+    "image/tlc2.png",
+    "image/tlc3.png",
+    "image/tlc4.png",
+    "image/tlc5.png",
+    "image/tlc6.png",
+    "image/tlc7.png"
+  ]
+},
 
 {
   title: "Portfolio Website",
