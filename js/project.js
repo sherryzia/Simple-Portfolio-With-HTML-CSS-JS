@@ -156,7 +156,7 @@ const projectsData = [
     description: "Our FIR Management System streamlines law enforcement operations by digitizing the process of registering and tracking First Information Reports (FIRs).",
     detailedDescription: "The FIR Management System is a web-based application that helps digitize FIR registration and tracking for law enforcement agencies. It includes role-specific panels for officers and facilitates transparency and accountability.",
     githubLink: "",
-    liveLink: "",
+    liveLink: "https://fir-management.vercel.app/",
     images: [
       "image/fir.png",
       // "image/fir.png", // Replace with additional screenshots
