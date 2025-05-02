@@ -136,7 +136,7 @@ const projectsData = [
   imageSrc: "image/portfolio.png",
   description: "My professional portfolio showcasing my skills, experience, and projects, built with HTML, CSS, and JavaScript.",
   detailedDescription: "A modern portfolio website featuring sections like About, Skills, Projects, and Contact, designed to showcase my work and expertise in software development.",
-  githubLink: "https://github.com/sherryzia/portfolio",
+  githubLink: "https://github.com/sherryzia/Simple-Portfolio-With-HTML-CSS-JS",
   liveLink: "https://shaheerziaportfolio.vercel.app/",
   images: [
     "image/portfolio.png",
