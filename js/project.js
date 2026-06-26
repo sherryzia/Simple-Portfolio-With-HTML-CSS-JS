@@ -9,8 +9,8 @@ const projectsData = [
     title: "Interactive Speech Therapist",
     subtitle: "Android App",
     imageSrc: "image/feature_graphics/ist.png",
-    description: "IST is a cutting-edge app for speech therapy, leveraging speech recognition to identify stuttering and offering tailored exercises like breathing techniques and yoga.",
-    detailedDescription: "Interactive Speech Therapist (IST) is an Android app designed to assist individuals with speech therapy using speech recognition technology. It includes AI chatbot support, a community forum, and resources such as articles and videos. Users can find nearby therapists and provide feedback via Firebase for secure access.",
+    description: "AI-powered speech therapy mobile app with real-time speech assessment, breathing exercises, word repetition, yoga-based exercises, chatbot support, community chat, educational resources, and therapist locator.",
+    detailedDescription: "Interactive Speech Therapist is an AI-powered Android application developed as my final year project to assist users with speech difficulties. It includes real-time speech assessment, breathing exercises, word repetition, yoga-based exercises, an AI chatbot, community chat, educational resources, therapist locator, and Firebase-backed authentication, database, and storage. The project secured 2nd position in the final year project showcase.",
     githubLink: "",
     liveLink: "",
     images: [
@@ -23,8 +23,8 @@ const projectsData = [
   title: "Quran Companion",
   subtitle: "Android App",
   imageSrc: "image/feature_graphics/QuranApp.png",
-  description: "Quran Companion is a beautifully designed Islamic app that provides a seamless Quran reading experience along with powerful features such as prayer times, Qibla direction, duas, and personalized bookmarks.",
-  detailedDescription: "Quran Companion is a comprehensive Islamic application designed to enhance your Quranic journey. It offers a user-friendly interface for reading the Quran, along with features like audio recitation, translation, and tafsir. The app also includes daily prayer times, Qibla direction, a collection of essential duas, and a bookmark system for saving favorite verses. With a focus on simplicity and accessibility, Quran Companion is the perfect tool for anyone looking to stay connected with the Quran in their daily life.",
+  description: "Taqwa Companion is a complete Islamic lifestyle app with Quran, audio Quran, translations, Hadith, daily duas, prayer timings, Qibla finder, Asma ul Husna, Islamic calendar, notifications, and polished mobile UI.",
+  detailedDescription: "Taqwa Companion is a full Islamic lifestyle mobile application built with Flutter, Firebase, GetX, FCM, audio playback, and Play Console deployment support. It includes Quran reading, audio Quran, translations, Hadith, daily duas, prayer timings, Qibla finder, Asma ul Husna, Islamic calendar, notifications, API-based religious content, and updates for modern Android requirements including Android 15 edge-to-edge support.",
   githubLink: "",
   liveLink: "",
   images: [
@@ -39,8 +39,8 @@ const projectsData = [
   title: "Grato App",
   subtitle: "Android/iOS App",
   imageSrc: "image/feature_graphics/GratoApp.png",
-  description: "Grato is a modern recognition and appreciation platform designed to foster workplace culture by enabling employees to give and receive recognition seamlessly.",
-  detailedDescription: "Grato is a comprehensive employee recognition app that empowers organizations to cultivate a positive work environment. It allows employees to appreciate peers, track recognitions, and redeem rewards. Featuring a structured points system, real-time notifications, and analytics, Grato enhances engagement and motivation within teams. The platform integrates with existing HR and communication tools, ensuring a seamless experience. With its intuitive design and social elements, Grato strengthens workplace connections and reinforces company values through meaningful recognition.",
+  description: "Grato is a corporate recognition and awards app with employee appreciation, awards, role-based access, filtering, real-time interactions, deep linking, and push notifications.",
+  detailedDescription: "Grato is a Flutter app built with Supabase, GetX, deep linking, and FCM. It supports corporate appreciation flows, awards, role-based access, filtering, real-time interactions, and daily, weekly, monthly, quarterly, and yearly award experiences with notifications.",
   githubLink: "",
   liveLink: "",
   images: [
@@ -55,8 +55,8 @@ const projectsData = [
     title: "SwimStrive App",
     subtitle: "Android/iOS App",
     imageSrc: "image/feature_graphics/SwimStrive.png",
-    description: "SwimStrive is a revolutionary swimming training and coaching app designed to enhance athlete performance through AI-driven analytics, real-time feedback, and personalized training plans.",
-    detailedDescription: "SwimStrive is a state-of-the-art mobile application built for swimmers and coaches to track progress, analyze swim techniques, and optimize performance. The app features real-time stroke analysis, personalized workout plans, video feedback, and AI-powered performance insights. It enables athletes to refine their techniques, improve endurance, and set structured training goals. With cloud-based data storage and community-driven challenges, SwimStrive fosters a competitive yet collaborative environment to push athletes to their best potential.",
+    description: "SwimStrive is a performance and training platform for swimmers, athletes, and coaches with athlete/coach roles, AI workouts, workout libraries, video analysis, journaling, plans, and performance tracking.",
+    detailedDescription: "SwimStrive is a Flutter-based training platform using Firebase, Supabase, GetX, FCM, and Stripe. It includes athlete and coach roles, AI workouts, manual workouts, stretching workouts, workout library, video analysis, journal, plans store, performance tracking, notifications, and payment flows.",
     githubLink: "",
     liveLink: "",
     images: [
@@ -72,7 +72,7 @@ const projectsData = [
   subtitle: "Flutter App",
   imageSrc: "image/feature_graphics/OcularVision.png",
   description: "A motivational tool that delivers personalized daily affirmations to uplift and inspire users, featuring reminders, favorite affirmations, and an AI chatbot.",
-  detailedDescription: "The Affirmation App provides users with daily motivational affirmations, allowing them to save favorites, set reminders, and interact with an AI-powered chatbot for encouragement.",
+  detailedDescription: "The Affirmation App is a Flutter mental wellness app with Firebase, FCM, Android native support, daily affirmations, favorites, reminders, push notifications, chatbot support, and Play Store deployment workflows.",
   githubLink: "",
   liveLink: "",
   images: [
@@ -102,7 +102,7 @@ const projectsData = [
   subtitle: "Community & Networking Platform",
   imageSrc: "image/feature_graphics/4UsApp.png",
   description: "A dynamic app designed to connect people with shared interests, events, and opportunities within a vibrant community.",
-  detailedDescription: "The 4Us App is an innovative platform designed to foster community engagement, networking, and event participation. It enables users to discover and join interest-based communities, attend exclusive events, and interact with like-minded individuals. The app offers a seamless user experience with intuitive navigation, real-time notifications, and personalized recommendations. Whether for professional networking, social gatherings, or collaborative projects, 4Us enhances user interaction in a meaningful way.",
+  detailedDescription: "4Us is a UK-based mobile app built with Flutter, REST APIs, Firebase, Hydrated BLoC, Google Sign-In, Apple Sign-In, and maps. I worked on home, notifications, organizer profile, business profile, maps, registration flows, authentication debugging, APNs, and API integrations.",
   githubLink: "",
   liveLink: "",
   images: [
