@@ -6,6 +6,18 @@
 // Project data array - now with support for multiple images
 const projectsData = [
   {
+  "title": "All-in-One Games",
+  "subtitle": "Flutter Game Collection",
+  "imageSrc": "image/project-covers/all-in-one-games.webp",
+  "description": "A Flutter collection of arcade, puzzle, strategy, card, and word games with searchable categories, local player profiles, and a statistics dashboard.",
+  "detailedDescription": "All-in-One Games brings classic and casual games into one Flutter app. The catalog includes Snake Xenia, Brick Breaker, Flappy Bird, Chess, Tetris, Sudoku, Space Invaders, Solitaire, Ludo, and Arrow Escape. The home screen supports search, category filters, and a featured game. Built with Flutter, GetX, and Flame, the app includes local player profiles and locally saved scores and statistics for supported games using SharedPreferences.",
+  "githubLink": "",
+  "liveLink": "",
+  "images": [
+    "image/project-covers/all-in-one-games.webp"
+  ]
+},
+  {
     title: "Interactive Speech Therapist",
     subtitle: "Android App",
     imageSrc: "image/feature_graphics/ist.png",
