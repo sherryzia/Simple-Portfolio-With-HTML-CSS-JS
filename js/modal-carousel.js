@@ -243,7 +243,8 @@ window.initModalCarousel = function() {
       
       .modal-carousel-slides {
         position: relative;
-        height: 400px;
+        height: clamp(180px, 50vw, 400px);
+        max-height: 55dvh;
       }
       
       .modal-carousel-slide {
@@ -276,8 +277,8 @@ window.initModalCarousel = function() {
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
-        width: 40px;
-        height: 40px;
+        width: 44px;
+        height: 44px;
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
         border: none;
@@ -327,19 +328,19 @@ window.initModalCarousel = function() {
       /* Responsive adjustments */
       @media (max-width: 768px) {
         .modal-carousel-slides {
-          height: 300px;
+          height: min(50vw, 300px);
         }
       }
       
       @media (max-width: 480px) {
         .modal-carousel-slides {
-          height: 200px;
+          height: min(55vw, 240px);
         }
         
         .modal-carousel-prev,
         .modal-carousel-next {
-          width: 30px;
-          height: 30px;
+          width: 44px;
+          height: 44px;
         }
       }
     `;

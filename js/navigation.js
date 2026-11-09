@@ -11,31 +11,39 @@ window.initNavigation = function() {
     const navLinks = document.querySelectorAll('.nav__link');
     const header = document.getElementById('header');
     
-    // Show the menu when the toggle button is clicked
-    if (navToggle) {
-      navToggle.addEventListener('click', () => {
-        navMenu.classList.add('show-menu');
-      });
+    const compactNavigation = window.matchMedia('(max-width: 1279px)');
+
+    function setMenuOpen(open, restoreFocus = false) {
+      const isOpen = compactNavigation.matches && open;
+      navMenu.classList.toggle('show-menu', isOpen);
+      navMenu.inert = compactNavigation.matches && !isOpen;
+      navToggle.setAttribute('aria-expanded', String(isOpen));
+      navToggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+      if (restoreFocus) navToggle.focus();
     }
-    
-    // Hide the menu when the close button is clicked
-    if (navClose) {
-      navClose.addEventListener('click', () => {
-        navMenu.classList.remove('show-menu');
-      });
-    }
-    
-    // Add click handler to all navigation links
+
+    navToggle.addEventListener('click', () => {
+      setMenuOpen(!navMenu.classList.contains('show-menu'));
+    });
+    navClose.addEventListener('click', () => setMenuOpen(false, true));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && navMenu.classList.contains('show-menu')) {
+        setMenuOpen(false, true);
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!header.contains(event.target)) setMenuOpen(false);
+    });
+    compactNavigation.addEventListener('change', () => setMenuOpen(false));
+    setMenuOpen(false);
+
     navLinks.forEach(link => {
       link.addEventListener('click', () => {
-        // Close the menu when a link is clicked (mobile view)
-        navMenu.classList.remove('show-menu');
-        
-        // Set active link
+        setMenuOpen(false);
         setActiveLink(link);
       });
     });
-    
+
     // Function to set the active link based on scroll position
     function setActiveLink(clickedLink = null) {
       // If a link was clicked, remove active class from all links and add to clicked link
@@ -53,7 +61,7 @@ window.initNavigation = function() {
         if (sectionId.startsWith('#')) {
           const section = document.querySelector(sectionId);
           if (section) {
-            const sectionTop = section.offsetTop - 50;
+            const sectionTop = section.offsetTop - header.getBoundingClientRect().bottom - 24;
             const sectionHeight = section.offsetHeight;
             
             if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {

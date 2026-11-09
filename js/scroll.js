@@ -33,8 +33,8 @@ window.initScrollBehavior = function() {
             
             // Smooth scroll to target
             window.scrollTo({
-              top: targetSection.offsetTop,
-              behavior: 'smooth'
+              top: Math.max(0, targetSection.getBoundingClientRect().top + window.scrollY - document.getElementById('header').getBoundingClientRect().bottom - 24),
+              behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
             });
           }
         });

@@ -333,23 +333,26 @@ img { display: block; max-width: 100%; height: auto; }
 ::-webkit-scrollbar { width: .65rem; background: var(--body-color-alt); }
 ::-webkit-scrollbar-thumb { border-radius: 999px; background: var(--text-color-light); }
 
-@media screen and (max-width: 1150px) {
-  .header { top: 0; width: 100%; border-inline: 0; border-top: 0; border-radius: 0; }
+@media screen and (max-width: 1279px) {
+  .header { top: 0; left: 0; transform: none; width: 100%; border-inline: 0; border-top: 0; border-radius: 0; }
   .nav { display: flex; justify-content: space-between; }
   .nav__toggle { display: grid; }
-  .nav__menu { position: fixed; top: -110%; left: 0; width: 100%; padding: 2rem 1.5rem 3rem; border-bottom: 1px solid var(--border-color); background: hsla(225, 31%, 7%, .92); backdrop-filter: blur(18px); transition: top .35s ease; }
-  .show-menu { top: 0; }
+  .nav__menu { position: absolute; top: 100%; left: 0; width: 100%; max-height: calc(100dvh - var(--header-height)); overflow-y: auto; overscroll-behavior: contain; padding: 1.5rem; border-bottom: 1px solid var(--border-color); background: hsla(225, 31%, 7%, .98); visibility: hidden; opacity: 0; pointer-events: none; transform: translateY(-.5rem); transition: opacity .2s ease, transform .2s ease, visibility .2s; }
+  .nav__menu.show-menu { visibility: visible; opacity: 1; pointer-events: auto; transform: none; }
   .nav__title, .nav__name { display: block; color: var(--white-color); text-align: center; }
   .nav__title { margin-bottom: .75rem; color: hsla(0, 0%, 100%, .55); font-size: var(--smaller-font-size); letter-spacing: .16em; text-transform: uppercase; }
-  .nav__name { margin-bottom: 2rem; font-size: var(--h2-font-size); }
-  .nav__list { flex-direction: column; gap: 1.4rem; }
-  .nav__link { color: hsla(0, 0%, 100%, .72); font-size: 1rem; }
+  .nav__name { margin-bottom: 1rem; font-size: var(--h2-font-size); }
+  .nav__list { flex-direction: column; gap: .35rem; }
+  .nav__link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; color: hsla(0, 0%, 100%, .85); font-size: 1rem; }
   .nav__link:hover, .active-link { color: var(--white-color); }
   .nav__link::after { background: var(--first-color); }
   .nav__link-button { margin-top: .5rem; }
   .nav__close { position: absolute; right: 1.25rem; top: 1.25rem; display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 50%; color: var(--white-color); cursor: pointer; }
   .home__container, .about__container, .contact__container { grid-template-columns: 1fr; }
-  .home__perfil { grid-column: auto; grid-row: auto; order: -1; }
+  .home__name { order: 0; }
+  .home__perfil { grid-column: auto; grid-row: auto; order: 1; justify-self: center; }
+  .home__info { order: 2; }
+  .home__container { row-gap: 2.5rem; }
   .home__name, .home__description, .home__info { text-align: center; margin-inline: auto; }
   .home__scroll { margin-inline: auto; }
   .about__container .section__title-1 { grid-column: auto; margin-inline: auto; order: -2; }
@@ -374,14 +377,14 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 @media screen and (max-width: 430px) {
-  .container, #carousel, .contact__container { width: min(100% - 1rem, 1120px); }
+  .container, #carousel, .contact__container { width: min(calc(100% - 2rem), 1120px); }
   .section__title-1, .section__title-2 { text-align: center; }
   .button { width: 100%; }
   .about__buttons { display: grid; grid-template-columns: 1fr auto; width: 100%; }
   .about__buttons .button { grid-column: 1 / -1; }
   .contact__mail, .contact__data { padding: 1.25rem; }
   .carousel-container { height: 285px; }
-  .carousel-nav { width: 2.35rem; height: 2.35rem; }
+  .carousel-nav { width: 2.75rem; height: 2.75rem; }
 }
 
 /* Professional experience */
@@ -398,3 +401,33 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* Keep complete project cover titles visible in the card frame. */
 .projects__img { aspect-ratio: 16 / 9; object-fit: contain; background: var(--body-color-alt); }
+
+/* Fluid sizing keeps content inside its grid track at narrow widths. */
+.grid > *, .nav > *, .contact__social-data > * { min-width: 0; }
+section[id] { scroll-margin-top: calc(var(--header-height) + 1.5rem); }
+.home__name, .section__title-1, .section__title-2, .experience__card,
+.services__title, .projects__title, .modal-content, .contact__social { overflow-wrap: anywhere; }
+.nav__toggle, .nav__close { min-width: 44px; min-height: 44px; background: transparent; cursor: pointer; }
+.nav__toggle:focus-visible, .nav__close:focus-visible { outline: 2px solid var(--first-color); outline-offset: 2px; }
+.contact__input { min-width: 0; font-size: 1rem; }
+.projects__button.button { width: 2.75rem; min-height: 2.75rem; }
+.modal-content { margin-block: 1rem; padding: clamp(1rem, 4vw, 1.5rem); }
+.close { width: 44px; height: 44px; }
+@media screen and (max-width: 760px) {
+  .home__name { font-size: clamp(2.4rem, 10vw, 4rem); }
+  .home__name::before { font-size: .7rem; letter-spacing: .08em; }
+  .home__image { width: min(300px, 72vw); }
+  .about__image { width: min(320px, 72vw); }
+  .home__container, .about__container { row-gap: 2rem; }
+  .section__title-1, .section__title-2 { font-size: clamp(1.8rem, 7vw, 2.8rem); margin-bottom: 2rem; }
+  .section__title-1::after, .section__title-2::after { right: 0; }
+  .contact__mail, .contact__data { padding: clamp(1rem, 4vw, 2rem); }
+  .footer__links { justify-content: center; }
+  .carousel-item img { max-width: min(76vw, 480px); }
+  .carousel-prev { left: .25rem; }
+  .carousel-next { right: .25rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .nav__menu { transition: none; }
+}
