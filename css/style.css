@@ -395,3 +395,6 @@ img { display: block; max-width: 100%; height: auto; }
 .experience__card ul { list-style: disc; padding-left: 1.25rem; margin-top: 1rem; }
 .experience__card li + li { margin-top: .45rem; }
 .contact__description-1 a { text-decoration: underline; text-underline-offset: .2em; }
+
+/* Keep complete project cover titles visible in the card frame. */
+.projects__img { aspect-ratio: 16 / 9; object-fit: contain; background: var(--body-color-alt); }

@@ -70,13 +70,12 @@ const projectsData = [
 {
   title: "Affirmation App",
   subtitle: "Flutter App",
-  imageSrc: "image/feature_graphics/OcularVision.png",
+  imageSrc: "image/project-covers/affirmation.webp",
   description: "A motivational tool that delivers personalized daily affirmations to uplift and inspire users, featuring reminders, favorite affirmations, and an AI chatbot.",
   detailedDescription: "The Affirmation App is a Flutter mental wellness app with Firebase, FCM, Android native support, daily affirmations, favorites, reminders, push notifications, chatbot support, and Play Store deployment workflows.",
   githubLink: "",
   liveLink: "",
   images: [
-    "image/feature_graphics/OcularVision.png",
     "image/affirmation.jpg", // Replace with additional screenshots
     // "image/affirmation.jpg"  // Replace with additional screenshots
   ]
@@ -114,7 +113,7 @@ const projectsData = [
 {
   title: "Tutelagic Learners School Website",
   subtitle: "Educational Institution Website",
-  imageSrc: "image/tlc1.png",
+  imageSrc: "image/project-covers/school.webp",
   description: "A dynamic and informative school website for Tutelagic Learners School, highlighting academics, leadership, events, and resources for students and parents.",
   detailedDescription: "Designed and developed a fully responsive website for Tutelagic Learners School to showcase its academic excellence, extracurricular activities, leadership team, and resources. The site features a modern design with dedicated sections for News & Events, Faculty, Gallery, and a contact form. Built using HTML, CSS, and JavaScript, the website emphasizes accessibility, responsiveness, and clarity to ensure a smooth experience for both students and parents.",
   githubLink: "", // Replace with actual repo link
@@ -133,7 +132,7 @@ const projectsData = [
 {
   title: "Portfolio Website",
   subtitle: "Personal Website",
-  imageSrc: "image/portfolio.png",
+  imageSrc: "image/portfolio-preview-2026.jpg",
   description: "My professional portfolio showcasing my skills, experience, and projects, built with HTML, CSS, and JavaScript.",
   detailedDescription: "A modern portfolio website featuring sections like About, Skills, Projects, and Contact, designed to showcase my work and expertise in software development.",
   githubLink: "https://github.com/sherryzia/Simple-Portfolio-With-HTML-CSS-JS",
@@ -152,7 +151,7 @@ const projectsData = [
 {
     title: "FIR Management System",
     subtitle: "Website",
-    imageSrc: "image/fir.png",
+    imageSrc: "image/project-covers/fir.webp",
     description: "Our FIR Management System streamlines law enforcement operations by digitizing the process of registering and tracking First Information Reports (FIRs).",
     detailedDescription: "The FIR Management System is a web-based application that helps digitize FIR registration and tracking for law enforcement agencies. It includes role-specific panels for officers and facilitates transparency and accountability.",
     githubLink: "",
@@ -166,7 +165,7 @@ const projectsData = [
   {
     title: "Music Academy Website",
     subtitle: "Next JS",
-    imageSrc: "image/MyMusic4.png",
+    imageSrc: "image/project-covers/music.webp",
     description: "A platform offering various music courses for aspiring musicians, built with Next.js for a seamless and engaging user experience.",
     detailedDescription: "The Music Academy Website is a Next.js-based platform featuring a clean UI, dynamic navigation, and music courses like Guitar Fundamentals, Vocal Techniques, and Music Production.",
     githubLink: "https://github.com/sherryzia/MusicAcademyWebsiteUsingNextJs",
@@ -182,7 +181,7 @@ const projectsData = [
   {
     title: "Rock Paper Scissors Game",
     subtitle: "Website",
-    imageSrc: "image/rps1.png",
+    imageSrc: "image/project-covers/rps.webp",
     description: "A fun online version of Rock Paper Scissors where users can challenge the computer with engaging animations and sound effects.",
     detailedDescription: "This web-based game allows users to play Rock Paper Scissors against a computer, featuring an intuitive UI, responsive design, and real-time score tracking.",
     githubLink: "https://github.com/sherryzia/rps.github.io",
@@ -212,7 +211,7 @@ const projectsData = [
   {
     title: "War Card Game App",
     subtitle: "iOS Application",
-    imageSrc: "image/ios2.jpg",
+    imageSrc: "image/project-covers/war.webp",
     description: "An engaging War Card Game app where players compete against the CPU to reach 14 points, developed using SwiftUI and Xcode.",
     detailedDescription: "Developed an engaging War Card Game app using SwiftUI and Xcode, where players compete against the CPU in a battle to reach 14 points. This app showcases skills in game development, UI design, and SwiftUI animation.",
     githubLink: "https://github.com/sherryzia/War-Card-Game",
@@ -226,7 +225,7 @@ const projectsData = [
   {
     title: "Phonebook App",
     subtitle: "iOS Application",
-    imageSrc: "image/ios3.jpg",
+    imageSrc: "image/project-covers/phonebook.webp",
     description: "A comprehensive iOS Phonebook app with contact management and chat functionality, developed using SwiftUI and Xcode.",
     detailedDescription: "Developed a comprehensive Phonebook app using SwiftUI and Xcode, enabling users to efficiently manage their contacts and initiate chats directly from the app. The app showcases smooth navigation, responsive design, and a robust data management system.",
     githubLink: "https://github.com/sherryzia/Phonebook-App",
@@ -240,7 +239,7 @@ const projectsData = [
   {
     title: "To-Do List App",
     subtitle: "iOS Application",
-    imageSrc: "image/ios4.jpg",
+    imageSrc: "image/project-covers/todo.webp",
     description: "An iOS ToDo app with Firebase authentication and Firestore real-time synchronization for managing daily tasks.",
     detailedDescription: "Developed using SwiftUI and integrated with Firebase, this iOS ToDo app enhances user productivity by allowing secure management of daily tasks. Features include real-time synchronization of tasks across devices using Firestore, robust user authentication, and a clean, intuitive interface.",
     githubLink: "https://github.com/sherryzia/ToDoList",
@@ -254,7 +253,7 @@ const projectsData = [
   {
     title: "SwiftUI Weather App",
     subtitle: "iOS Application",
-    imageSrc: "image/ios5.jpg",
+    imageSrc: "image/project-covers/weather.webp",
     description: "A weather app that fetches real-time weather data using OpenWeather and Open-Meteo APIs, dynamically updating weather conditions.",
     detailedDescription: "This SwiftUI Weather App provides real-time weather updates by integrating two APIs. It uses the OpenWeather Geocoding API to convert city names to geographical coordinates and the Open-Meteo API to fetch detailed weather conditions like temperature, humidity, and wind speed. The application enhances user engagement by dynamically displaying relevant weather images such as sunny, rainy, or cloudy conditions based on the current weather data.",
     githubLink: "https://github.com/sherryzia/Weather-App",
